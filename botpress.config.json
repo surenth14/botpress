@@ -2,8 +2,7 @@
 {
   "httpServer": {
     "host": "0.0.0.0",
-    "port": 3000,
-    "timeout": 120000
+    "port": 3000
   },
   "externalUrl": "https://botpress-584g.onrender.com"
 }
