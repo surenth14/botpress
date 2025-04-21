@@ -1,5 +1,6 @@
 FROM botpress/server:latest
 
-EXPOSE 3000
+ENV BP_PRODUCTION=true
+ENV PORT=3200
 
-CMD ["./bp"]
+EXPOSE 3200
