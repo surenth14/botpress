@@ -1,6 +1,7 @@
 FROM botpress/server:latest
 
-ENV BP_PRODUCTION=true
-ENV PORT=3200
+WORKDIR /botpress
+COPY . .
 
-EXPOSE 3200
+EXPOSE 3000
+CMD ["./bp"]
